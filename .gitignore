@@ -1,0 +1,6 @@
+# Ignora diretórios e arquivos gerados pelo Python
+__pycache__        
+.pyc              
+
+
+

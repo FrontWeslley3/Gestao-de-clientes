@@ -1,0 +1,28 @@
+/* Definindo o estilo para a tabela */
+.table {
+    width: 100%; /* A tabela ocupa 100% da largura do contêiner */
+    margin: 20px 0; /* Margem superior e inferior de 20px */
+    border-collapse: collapse; /* Remove o espaço entre as bordas das células */
+}
+
+/* Estilo para cabeçalhos e células da tabela */
+.table th, .table td {
+    padding: 15px; /* Espaçamento interno de 15px */
+    text-align: left; /* Alinhamento do texto à esquerda */
+    border: 1px solid #ddd; /* Borda leve ao redor das células */
+}
+
+/* Estilo para os cabeçalhos da tabela */
+.table th {
+    background-color: #f2f2f2; /* Cor de fundo leve para os cabeçalhos */
+}
+
+/* Estilo para linhas pares da tabela */
+.table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Cor de fundo leve para linhas pares */
+}
+
+/* Efeito hover para as linhas da tabela */
+.table tr:hover {
+    background-color: #f1f1f1; /* Muda a cor de fundo ao passar o mouse */
+}
